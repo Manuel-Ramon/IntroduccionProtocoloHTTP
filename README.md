@@ -1,6 +1,7 @@
-# --Usabilidad y accesibilidad--
+#				--Usabilidad y accesibilidad--
 
-##-Introducción al protocolo HTTP-
+##				-Introducción al protocolo HTTP-
+
 ### Autor: Manuel Ramón Regalado Peraza.
 
 1º Enlace
@@ -8,30 +9,30 @@
 http://www.gobiernodecanarias.org/istac/api/ → Botón derecho (Inspeccionar elemento)
 Navegador usado: Mozilla Firefox
 
-• Qué peticiones desencadena la consulta.
+___• Qué peticiones desencadena la consulta.
 
 ![img1](/images/1.png "imagen1")
 
 4 peticiones de recurso GET.
 
-• ¿Qué tipo de petición estás realizando?
+___• ¿Qué tipo de petición estás realizando?
 
 Todas las peticiones que se hacen son de tipo GET que son peticiones de recurso, en este
 caso 4 peticiones de ese tipo de la página sobre protocolo HTTP
 
-• Qué código de estatus devuelve.
+___• Qué código de estatus devuelve.
 
 2 codigos de retorno 302 → Redirección (Found)
 2 codigos de retorno 200 → Exitos(OK)
 
-• Qué DNS tiene el servidor
+___• Qué DNS tiene el servidor
 
 ![img2](/images/2.png "imagen2")
 
 Con el DNS se asignó a la IP de la página el nombre lógico de
 “www.gobiernodecanarias.org”
 
-• Qué IP tiene tiene el servidor
+___• Qué IP tiene tiene el servidor
 
 Si hacemos un ping al “nombre de la página” nos devuelve una IP que debería ser de la
 misma.
@@ -46,60 +47,61 @@ inspeccionándola nos da la IP, que es 93.188.137.123:80
 
 ![img4](/images/4.png "imagen4")
 
-• ¿La página tiene alguna cookie?, ¿Cuáles?.
+___• ¿La página tiene alguna cookie?, ¿Cuáles?.
 
 Ninguno de los elementos de la página fué devuelto con cookies como se muestra en la
 pestaña de ‘cookies’ de la pestaña de ‘red’.
 
 ![img5](/images/5.png "imagen5")
 
-• ¿Qué idioma acepta?
+___• ¿Qué idioma acepta?
 
 ![img6](/images/6.png "imagen6")
 
 es-ES →Español de España (Castellano)
 en_US → Inglés de Estados Unidos
 
-• Alguna línea de código JavaScript
+___• Alguna línea de código JavaScript
 
 La página no presenta ficheros javascript ni código javascript en el fichero HTML de la
 página.
 
-• Alguna línea de código CSS que se aplique
+___• Alguna línea de código CSS que se aplique
 
 ![img7](/images/7.png "imagen7")
 
 Esto son estilos para el texto de cabecera H1 y H2.
 
-.section h1, .section h2 {
-padding-bottom: 10px;
-font-weight: bold;
-font-size: 25px;
-}
-.section h2 {
-border-bottom: 1px solid rgb(214, 214, 214);
-box-sizing: border-box;
-}
-.section h2 a {
-color: #999999;
-font-size: 18px;
-text-decoration: none;
-}
-.section h2 a:hover{
-color: black;
-text-decoration: underline;
-}
-• Alguna línea de código HTML que se aplique.
+	.section h1, .section h2 {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 25px;
+	}
+	.section h2 {
+	border-bottom: 1px solid rgb(214, 214, 214);
+	box-sizing: border-box;
+	}
+	.section h2 a {
+	color: #999999;
+	font-size: 18px;
+	text-decoration: none;
+	}
+	.section h2 a:hover{
+	color: black;
+	text-decoration: underline;
+	}
+
+___• Alguna línea de código HTML que se aplique.
 
 ![img8](/images/8.png "imagen8")
 
 Éste es el código del enlace del texto “API de recursos estructurales” de la página escrito en
 HTML
 
-<h2>
-<a href="http://www.gobiernodecanarias.org/istac/api/structural-resources/v1.0/#/" alt="API
-de recursos estructurales">API de recursos estructurales</a>
-</h2>
+	<h2>
+	<a href="http://www.gobiernodecanarias.org/istac/api/structural-resources/v1.0/#/" alt="API
+	de recursos estructurales">API de recursos estructurales</a>
+	</h2>
 
 2º Enlace
 
@@ -113,7 +115,7 @@ peticiones de tipo GET sabemos que es una petición de ese tipo.
 
 Navegador usado: Google Chrome y Mozilla Firefox
 
-• Qué peticiones desencadena la consulta.
+___• Qué peticiones desencadena la consulta.
 
 
 NOTA: Tuve que recargar la página al menos una vez cuando ya estaba cargada para que se
@@ -135,7 +137,7 @@ llamada “favicon.ico” que no logra encontrar.
 
 ![img10](/images/10.png "imagen10")
 
-• ¿Qué tipo de petición estás realizando?
+___• ¿Qué tipo de petición estás realizando?
 
 Chrome:
 
@@ -155,7 +157,7 @@ de “Red” junto a los códigos de respuesta.
 
 NOTA: Las peticiones con ambos navegadores se les ha pasado el argumento ‘limit=5’
 
-• Qué código de estatus devuelve.
+___• Qué código de estatus devuelve.
 
 Como habíamos dicho → Chrome: 200: XML
 200: Imagen cacheada
@@ -163,7 +165,7 @@ Como habíamos dicho → Chrome: 200: XML
 Firefox: 200: XML
 404: Imagen no encontrada
 
-• Qué DNS tiene el servidor
+___• Qué DNS tiene el servidor
 
 El servidor DNS ha “convertido” (asociado) la IP del la página web a la siguiente
 URL en ambos navegadores:
@@ -177,14 +179,14 @@ Firefox: www3.gobiernodecanarias.org
 
 ![img14](/images/14.png "imagen14")
 
-• Qué IP tiene tiene el servidor:
+___• Qué IP tiene tiene el servidor:
 
 Chrome: 93.188.137.126:443
 Firefox: 93.188.137.126:443
 
 ![img15](/images/15.png "imagen15")
 
-• ¿La página tiene alguna cookie?, ¿Cuáles?
+___• ¿La página tiene alguna cookie?, ¿Cuáles?
 
 No se encontraron cookies de ningún tipo con ambos navegadores.
 
@@ -194,7 +196,7 @@ No se encontraron cookies de ningún tipo con ambos navegadores.
 
 ![img17](/images/17.png "imagen17")
 
-• ¿Qué idioma acepta?
+___• ¿Qué idioma acepta?
 
 NOTA: No presenta los mismos lenguajes en cada navegador
 
@@ -213,17 +215,17 @@ navegadores en el código.
 
 ![img20](/images/20.png "imagen20")
 
-• Alguna línea de código JavaScript
+___• Alguna línea de código JavaScript
 
 No hay ninguna línea de Javascript ni líneas que contengan el código para cargar un
 fichero javascript alguno.
 
-• Alguna línea de código CSS que se aplique
+___• Alguna línea de código CSS que se aplique
 
 Como es un fichero XML no hay ninguna hoja de estilo que se aplique sobre el
 fichero.
 
-• Alguna línea de código HTML que se aplique.
+___• Alguna línea de código HTML que se aplique.
 
 No hay código HTML sólo enlaces que apunten a otras páginas que puede que
 tengan ellas en su interior código de ese tipo.
