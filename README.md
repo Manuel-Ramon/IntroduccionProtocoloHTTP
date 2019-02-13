@@ -26,7 +26,7 @@ caso 4 peticiones de ese tipo de la página sobre protocolo HTTP
 
 • Qué DNS tiene el servidor
 
-IMAGEN2
+![img2](/images/2.png "imagen2")
 
 Con el DNS se asignó a la IP de la página el nombre lógico de
 “www.gobiernodecanarias.org”
@@ -36,7 +36,7 @@ Con el DNS se asignó a la IP de la página el nombre lógico de
 Si hacemos un ping al “nombre de la página” nos devuelve una IP que debería ser de la
 misma.
 
-IMAGEN3
+![img3](/images/3.png "imagen3")
 
 La IP es: 93.188.137.123
 
@@ -44,18 +44,18 @@ La otra manera en la que el inspeccionador de elementos del navegador ha dado la
 refrescar la página con un F5, el cual ahora sí, ofrece como elemento la página en HTML, e
 inspeccionándola nos da la IP, que es 93.188.137.123:80
 
-IMAGEN4
+![img4](/images/4.png "imagen4")
 
 • ¿La página tiene alguna cookie?, ¿Cuáles?.
 
 Ninguno de los elementos de la página fué devuelto con cookies como se muestra en la
 pestaña de ‘cookies’ de la pestaña de ‘red’.
 
-IMAGEN5
+![img5](/images/5.png "imagen5")
 
 • ¿Qué idioma acepta?
 
-IMAGEN6
+![img6](/images/6.png "imagen6")
 
 es-ES →Español de España (Castellano)
 en_US → Inglés de Estados Unidos
@@ -67,7 +67,7 @@ página.
 
 • Alguna línea de código CSS que se aplique
 
-IMAGEN7
+![img7](/images/7.png "imagen7")
 
 Esto son estilos para el texto de cabecera H1 y H2.
 
@@ -91,7 +91,7 @@ text-decoration: underline;
 }
 • Alguna línea de código HTML que se aplique.
 
-IMAGEN8
+![img8](/images/8.png "imagen8")
 
 Éste es el código del enlace del texto “API de recursos estructurales” de la página escrito en
 HTML
@@ -124,7 +124,7 @@ se ha cargado al entrar a dicha URL y otro pertenece al recurso de una imagen en
 “http://www.w3.org/2000/svg”. Ambas respuestas son fruto de hacer un GET a esta página como
 veremos en el siguiente punto.
 
-IMAGEN9
+![img9](/images/9.png "imagen9")
 
 En Firefox en cambio se puede apreciar dos codigos de respuesta, en este caso:
 
@@ -133,7 +133,7 @@ página web.
 -Un código de retorno tipo 404 (Error del cliente. Not Found) sobre una imagen
 llamada “favicon.ico” que no logra encontrar.
 
-IMAGEN10
+![img10](/images/10.png "imagen10")
 
 • ¿Qué tipo de petición estás realizando?
 
@@ -143,11 +143,11 @@ Las peticiones son de tipo GET.
 
 -El documento.
 
-IMAGEN11
+![img11](/images/11.png "imagen11")
 
 -El recurso de la imagen.
 
-IMAGEN12
+![img12](/images/12.png "imagen12")
 
 Firefox:
 Igualmente, son peticiones de tipo GET como se veía en la parte de la pestaña
@@ -171,28 +171,28 @@ URL en ambos navegadores:
 Chrome: www3.gobiernodecanarias.org
 Firefox: www3.gobiernodecanarias.org
 
-IMAGEN13
+![img13](/images/13.png "imagen13")
 
 -
 
-IMAGEN14
+![img14](/images/14.png "imagen14")
 
 • Qué IP tiene tiene el servidor:
 
 Chrome: 93.188.137.126:443
 Firefox: 93.188.137.126:443
 
-IMAGEN15
+![img15](/images/15.png "imagen15")
 
 • ¿La página tiene alguna cookie?, ¿Cuáles?
 
 No se encontraron cookies de ningún tipo con ambos navegadores.
 
-IMAGEN16
+![img16](/images/16.png "imagen16")
 
 -
 
-IMAGEN17
+![img17](/images/17.png "imagen17")
 
 • ¿Qué idioma acepta?
 
@@ -201,17 +201,17 @@ NOTA: No presenta los mismos lenguajes en cada navegador
 Chrome: es-ES
 Firefox: en-US
 
-IMAGEN18
+![img18](/images/18.png "imagen18")
 
 -
 
-IMAGEN19
+![img19](/images/19.png "imagen19")
 
 Por otra parte, la respuesta que devuelve, es decir el XML que se nos presenta,
 contiene múltiples referencias tanto al lenguaje español (es) como al inglés (en) en ambos
 navegadores en el código.
 
-IMAGEN20
+![img20](/images/20.png "imagen20")
 
 • Alguna línea de código JavaScript
 
