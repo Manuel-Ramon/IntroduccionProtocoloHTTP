@@ -10,7 +10,7 @@
 
 ***
 
-http://www.gobiernodecanarias.org/istac/api/ → Botón derecho (Inspeccionar elemento)
+>http://www.gobiernodecanarias.org/istac/api/ → Botón derecho (Inspeccionar elemento)
 Navegador usado: Mozilla Firefox
 
 • Qué peticiones desencadena la consulta.
@@ -27,6 +27,7 @@ caso 4 peticiones de ese tipo de la página sobre protocolo HTTP
 • Qué código de estatus devuelve.
 
 >2 codigos de retorno 302 → Redirección (Found)
+
 >2 codigos de retorno 200 → Exitos(OK)
 
 • Qué DNS tiene el servidor
@@ -63,6 +64,7 @@ pestaña de ‘cookies’ de la pestaña de ‘red’.
 ![img6](/images/6.png "imagen6")
 
 >es-ES →Español de España (Castellano)
+
 >en_US → Inglés de Estados Unidos
 
 • Alguna línea de código JavaScript
@@ -140,6 +142,7 @@ veremos en el siguiente punto.
 
 >-Un código de retorno tipo 200 (Correcto, OK) sobre un fichero XML que es la
 página web.
+
 >-Un código de retorno tipo 404 (Error del cliente. Not Found) sobre una imagen
 llamada “favicon.ico” que no logra encontrar.
 
@@ -167,13 +170,18 @@ de “Red” junto a los códigos de respuesta.
 
 • Qué código de estatus devuelve.
 
->Como habíamos dicho: 
-    >Chrome: 
+>Como habíamos dicho:
+ 
+    >Chrome:
+ 
             >200: XML
+
             >200: Imagen cacheada
 
-    >Firefox: 
+    >Firefox:
+ 
             >200: XML
+
             >404: Imagen no encontrada
 
 • Qué DNS tiene el servidor
@@ -182,6 +190,7 @@ de “Red” junto a los códigos de respuesta.
 URL en ambos navegadores:
 
     >Chrome: www3.gobiernodecanarias.org
+
     >Firefox: www3.gobiernodecanarias.org
 
 ![img13](/images/13.png "imagen13")
@@ -193,6 +202,7 @@ URL en ambos navegadores:
 • Qué IP tiene tiene el servidor:
 
 >Chrome: 93.188.137.126:443
+
 >Firefox: 93.188.137.126:443
 
 ![img15](/images/15.png "imagen15")
