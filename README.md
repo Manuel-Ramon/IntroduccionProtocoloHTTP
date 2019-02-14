@@ -9,45 +9,45 @@
 http://www.gobiernodecanarias.org/istac/api/ → Botón derecho (Inspeccionar elemento)
 Navegador usado: Mozilla Firefox
 
-___• Qué peticiones desencadena la consulta.
+• **Qué peticiones desencadena la consulta.
 
 ![img1](/images/1.png "imagen1")
 
-4 peticiones de recurso GET.
+>4 peticiones de recurso GET.
 
 ___• ¿Qué tipo de petición estás realizando?
 
-Todas las peticiones que se hacen son de tipo GET que son peticiones de recurso, en este
+>Todas las peticiones que se hacen son de tipo GET que son peticiones de recurso, en este
 caso 4 peticiones de ese tipo de la página sobre protocolo HTTP
 
 ___• Qué código de estatus devuelve.
 
-2 codigos de retorno 302 → Redirección (Found)
-2 codigos de retorno 200 → Exitos(OK)
+>2 codigos de retorno 302 → Redirección (Found)
+>2 codigos de retorno 200 → Exitos(OK)
 
-___• Qué DNS tiene el servidor
+• Qué DNS tiene el servidor
 
 ![img2](/images/2.png "imagen2")
 
-Con el DNS se asignó a la IP de la página el nombre lógico de
-“www.gobiernodecanarias.org”
+>Con el DNS se asignó a la IP de la página el nombre lógico de
+>“www.gobiernodecanarias.org”
 
-___• Qué IP tiene tiene el servidor
+• **Qué IP tiene tiene el servidor
 
-Si hacemos un ping al “nombre de la página” nos devuelve una IP que debería ser de la
+>Si hacemos un ping al “nombre de la página” nos devuelve una IP que debería ser de la
 misma.
 
 ![img3](/images/3.png "imagen3")
 
-La IP es: 93.188.137.123
+>La IP es: 93.188.137.123
 
-La otra manera en la que el inspeccionador de elementos del navegador ha dado la IP es
+>La otra manera en la que el inspeccionador de elementos del navegador ha dado la IP es
 refrescar la página con un F5, el cual ahora sí, ofrece como elemento la página en HTML, e
 inspeccionándola nos da la IP, que es 93.188.137.123:80
 
 ![img4](/images/4.png "imagen4")
 
-___• ¿La página tiene alguna cookie?, ¿Cuáles?.
+• **¿La página tiene alguna cookie?, ¿Cuáles?.
 
 Ninguno de los elementos de la página fué devuelto con cookies como se muestra en la
 pestaña de ‘cookies’ de la pestaña de ‘red’.
